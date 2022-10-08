@@ -6,10 +6,10 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
     const routes = [
         { id: 1, name: 'Home', path: '/home' },
-        { id: 2, name: 'Products', path: '/home' },
-        { id: 3, name: 'Orders', path: '/home' },
-        { id: 4, name: 'Contacts', path: '/home' },
-        { id: 5, name: 'About', path: '/home' },
+        { id: 2, name: 'Products', path: '/products' },
+        { id: 3, name: 'Orders', path: '/orders' },
+        { id: 4, name: 'Contacts', path: '/contact' },
+        { id: 5, name: 'About', path: '/about' },
     ]
     return (
         <nav className='bg-indigo-300'>
