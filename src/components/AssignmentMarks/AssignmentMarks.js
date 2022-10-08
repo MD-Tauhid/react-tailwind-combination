@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
 
 const AssignmentMarks = () => {
     const data = [
@@ -47,7 +47,7 @@ const AssignmentMarks = () => {
         },
     ];
     return (
-        <div>
+        <div className='m-12'>
             <LineChart width={500} height={400} data={data}>
                 <XAxis dataKey="name" />
                 <YAxis />

@@ -8,8 +8,8 @@ const PricingOption = ({ option }) => {
         <div className='bg-indigo-300 p-3 rounded-lg my-6'>
             <div>
                 <h1>
-                    <span className='text-6xl font-bold text-white'>{option.price}</span>
-                    <span className='text-4xl text-lime-600'>/mon</span>
+                    <span className='text-6xl font-bold text-green-600'>{option.price}</span>
+                    <span className='text-4xl text-yellow-600'>/mon</span>
                 </h1>
                 <p className='text-3xl my-4'>{option.name}</p>
             </div>
@@ -18,7 +18,7 @@ const PricingOption = ({ option }) => {
                     features.map((feature, idx) => <Feature feature={feature} key={idx}></Feature>)
                 }
             </div>
-            <button className='bg-yellow-600 w-full py-2 rounded-lg mt-6 text-lg font-semibold text-white hover:bg-lime-600'>Buy Now</button>
+            <button className='bg-green-600 w-full py-2 rounded-lg mt-6 text-lg font-semibold text-white hover:bg-yellow-600'>Buy Now</button>
         </div>
     );
 };
